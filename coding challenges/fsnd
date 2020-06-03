@@ -1,0 +1,73 @@
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Bootstrap</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Obcaecati perferendis impedit error mollitia,
+        culpa quia.</p>
+    </div>
+  </div>
+  <div class="table">
+    <div class="container">
+      <table class="table table-hover">
+        <thead>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Email</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>john</td>
+            <td>Moe</td>
+            <td>johnMoe@gmail.com</td>
+          </tr>
+          <tr>
+            <td>john</td>
+            <td>Moe</td>
+            <td>johnMoe@gmail.com</td>
+          </tr>
+          <tr>
+            <td>john</td>
+            <td>Moe</td>
+            <td>johnMoe@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <h2>Button Styles</h2>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button class="btn btn-light">Light</button>
+    <button class="btn btn-link">Link</button>
+  </div>
+  <div class="container pt-3">
+    <div class="btn-group">
+      <button class="btn btn-light">link</button>
+      <button class="btn btn-light">link</button>
+      <button class="btn btn-light">link</button>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="progress" style="height:10px">
+      <div class="progress-bar bg-dark" style="width:40%;height:10px"></div>
+    </div>
+    <br>
+    <div class="btn btn-dark">
+      <span class="spinner-border spinner-border-sm"></span>  Loading....
+    </div>
+  </div>
+  <div class="container">
+    <p class="my-3">Click the button to view info</p>
+    <button type="button" class="btn btn-danger " data-toggle="collapse" data-target='#demo'>INFO</button>
+    <div id="demo" class="collapse">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, debitis.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis labore incidunt excepturi aliquid ex cupiditate.
+    </div>
+  </div>
